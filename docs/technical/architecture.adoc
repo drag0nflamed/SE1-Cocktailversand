@@ -186,6 +186,8 @@ diesen Anforderungen ergeben, und verweist auf die zugehörigen Entscheidungen.
 | ADR-002
 
 | zuverlässige Speicherung von Produktdaten
+|
+|
 
 | Barbetreiber will zentrale Übersicht auf alle Daten >> eindeutige Datenspeicherung und -verwaltung
 | Speicherung in zentraler Datenbank
@@ -200,11 +202,16 @@ diesen Anforderungen ergeben, und verweist auf die zugehörigen Entscheidungen.
 | ADR-002
 
 | graphische Benutzeroberfläche
+|
+|
 
 | Kunden wollen nichts installieren >> System muss ohne Installation nutzbar sein
 | Websystem benötigt
+|
 
 | Kunden wollen von ihrer Plattform zugreifen >> Unterstützung von meisten Plattformen
+|
+|
 
 | Kunden bekommen Kaufbestätigung
 | 
