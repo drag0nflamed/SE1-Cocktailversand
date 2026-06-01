@@ -177,23 +177,47 @@ diesen Anforderungen ergeben, und verweist auf die zugehörigen Entscheidungen.
 |===
 | Anforderung (aus Produktkonzept) | Technische Konsequenz | Entscheidung
 
-| Performanceziel: Seitenladezeit < 2 s
-| Server-Side Rendering für initiales Laden erforderlich;
-  statische Assets über CDN ausliefern
+| sicherer Umgang mit Finanzdaten und Bankinformationen
+| saubere Integration der Bezahlplattform
+| ADR-002
+
+| Nutzerdaten vor unbefugten Zugriff schützen
+| sichere Authentifizierung beim Anmelden
+| ADR-002
+
+| zuverlässige Speicherung von Produktdaten
+
+| Barbetreiber will zentrale Übersicht auf alle Daten >> eindeutige Datenspeicherung und -verwaltung
+| Speicherung in zentraler Datenbank
+| ADR-002
+
+| Barrierefreie Nutzung
+| 
+| ADR-002
+
+| für alle erreichbar >> Online Verfügbarkeit/im Internet
+| 
+| ADR-002
+
+| graphische Benutzeroberfläche
+
+| Kunden wollen nichts installieren >> System muss ohne Installation nutzbar sein
+| Websystem benötigt
+
+| Kunden wollen von ihrer Plattform zugreifen >> Unterstützung von meisten Plattformen
+
+| Kunden bekommen Kaufbestätigung
+| 
+| ADR-002
+
+| hohe Effizienz für Mitarbeiter >> geringe Ladezeit 
+| 
 | ADR-002
 
 | DSGVO-Konformität
 | Keine personenbezogenen Daten in Logs; Datensparsamkeit im Datenbankmodell;
   Recht auf Löschung muss implementierbar sein
 | ADR-003, ADR-004
-
-| Betrieb auf Hochschulinfrastruktur
-| Keine Cloud-only-Dienste; Containerisierung für Portabilität erforderlich
-| ADR-005
-
-| Verfügbarkeit ≥ 99 % während Betriebszeiten
-| Statusüberwachung und automatischer Neustart über Container-Orchestrierung
-| ADR-005
 
 | [Anforderung]
 | [Technische Konsequenz]
