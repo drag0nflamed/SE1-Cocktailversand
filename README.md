@@ -105,7 +105,7 @@ product
 └── ux_concept.adoc
 ```
 
-## Repo-Links anpassen
+## Repo-Links anpassen lol
 
 Bitte ersetzen Sie in den folgenden Dateien `[ORG]/[REPO]` durch den
 tatsächlichen Repository-Namen, bevor dieses Projekt produktiv genutzt wird.
